@@ -1,9 +1,18 @@
 .header {
   height: 55px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  position:fixed;
+  top: 0;
+  left:0;
+  right:0;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(229, 228, 228);
+  z-index: 100;
 }
 
 .left-section {
@@ -96,6 +105,22 @@
 
 .notifications-icon{
   height:24px;
+}
+
+.notifications-icon-container{
+  position:relative
+}
+
+.notifications-count{
+ position: absolute;
+ font-family: Roboto,Arial;
+ font-size: 11px;
+ background-color: rgb(200,0,0);
+ color: white;
+ top: -2px;
+ right: -5px;
+ padding: 2px 6px 2px 6px;
+ border-radius: 10px;
 }
 
 .current-user-picture{

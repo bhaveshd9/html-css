@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>15F</title>
+    <style>
+      .product{
+        position: relative;
+        display: inline-block;
+      }
+      .tshirt-pic{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+      .discount{
+        background-color: black;
+        color:white;
+        padding: 5px 5px 5px 5px;
+        font-size: 14px;
+        position: absolute;
+        top: 10px;
+        right: 0;
+      }
+
+      .overlay{
+        background-color: rgba(251, 247, 247, 0.5);
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+      }
+
+      .add-cart{
+       background-color: white;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    </style>
+    
+  </head>
+  <body>
+    <div class="product">
+      <img class="tshirt-pic" src="shopping.webp">
+      <div class="discount">
+        20% OFF
+      </div>
+      <div class="overlay">
+        <button class="add-cart">
+          Add to Cart
+        </button>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
